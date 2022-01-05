@@ -1,4 +1,3 @@
-# Room_Occupancy_Project
 # Room Occupancy Detection
 ## Overview
 - Selected Topic: Room occupancy detection for home or office using a variety of sensors such as temperature, motion, and humidity.  Datasets from multiple experiments have been captured and provide on Kaggle and the UCI machine learning datasets site.
