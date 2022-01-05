@@ -7,3 +7,8 @@
     - Of the three datasets we selected, which one provides the best performance for accurate room occupancy detection?
         - The answer to this also gives an indication of which sensor suite provides the best sensing capability
     - What is the best occupancy detection performance that we can achieve given the available data using machine learning classification algorithms?
+- Communications Protocols: 
+    - Coordinated schedules via Slack channel. 
+    - Microsoft Teams as a virtual meeting platform 2x/week.
+    - Utilized class time via Zoom breakout room to work on project
+    - Shared resources via GitHub
