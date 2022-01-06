@@ -1,6 +1,6 @@
 # Room Occupancy Detection
 ## Overview
-- Selected Topic: Room occupancy detection for home or office using a variety of sensors such as temperature, motion, and humidity.  Datasets from multiple experiments have been captured and provide on Kaggle and the UCI machine learning datasets site.
+- Selected Topic: Room occupancy detection for home or office using a variety of sensors such as temperature, motion, and humidity.  Datasets from multiple experiments have been captured from Kaggle and the UCI machine learning datasets site.
 - Reasons for topic selection: The domain (people in a room) is something everyone can easily understand, the type of analysis needed (binary classification) is one of the skills we learned in this course, and availability of multiple, well formed datasets.  Potential use cases for occupancy detection include: 
     - Room cleaning after occupancy such as in clinics, conference rooms, and other public settings; particularly during the COVID pandemic
     - Energy efficiency via room temperature management based on occupancy and turning off lights and other electrical devices    
@@ -8,7 +8,7 @@
 - Questions we hope to answer:
     - Of the three datasets we selected, which one provides the best performance for accurate room occupancy detection?
     - What is the best occupancy detection performance that we can achieve given the available data using machine learning classification algorithms?
-- We will use the Random Forest algorithm from scikit-learn to analyze the data
+- We will start with the Random Forest algorithm from scikit-learn to analyze the data, then explore the performance of other models such as Logistic Regression.
 - Communications Protocols: 
     - Coordinated schedules via Slack channel. 
     - Microsoft Teams as a virtual meeting platform 2x/week.
