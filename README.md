@@ -9,3 +9,8 @@
     - Of the three datasets we selected, which one provides the best performance for accurate room occupancy detection?
     - What is the best occupancy detection performance that we can achieve given the available data using machine learning classification algorithms?
 - We will use the Random Forest algorithm from scikit-learn to analyze the data
+- Communications Protocols: 
+    - Coordinated schedules via Slack channel. 
+    - Microsoft Teams as a virtual meeting platform 2x/week.
+    - Utilized class time via Zoom breakout room to work on project
+    - Shared resources via GitHub
