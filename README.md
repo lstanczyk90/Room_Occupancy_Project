@@ -17,3 +17,7 @@
     - Microsoft Teams as a virtual meeting platform 2x/week.
     - Utilized class time via Zoom breakout room to work on project
     - Shared resources via GitHub
+
+## Database Entity Relationship Diagram (ERD)
+
+![ERD](./Resources/QuickDBD-export.png)
