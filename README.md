@@ -17,5 +17,11 @@
     - Microsoft Teams as a virtual meeting platform 2x/week.
     - Utilized class time via Zoom breakout room to work on project
     - Shared resources via GitHub
+
+## Database Entity Relationship Diagram (ERD)
+
+![ERD](./Resources/QuickDBD-export.png)
+=======
 ## Presentation & Project Outline
 The draft presentation - which also contains the project outline - can be found in Google slides here:  https://docs.google.com/presentation/d/1osNFkS8d5RxEI2eKCFaoNMjgaGzFwkeNDIXmPj3grc8/edit#slide=id.g10d80d3b944_1_2
+
