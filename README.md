@@ -17,5 +17,5 @@
     - Microsoft Teams as a virtual meeting platform 2x/week.
     - Utilized class time via Zoom breakout room to work on project
     - Shared resources via GitHub
-## Presentation
-The draft presentation can be found in Google slides here:  https://docs.google.com/presentation/d/1osNFkS8d5RxEI2eKCFaoNMjgaGzFwkeNDIXmPj3grc8/edit#slide=id.g10d80d3b944_1_2
+## Presentation & Project Outline
+The draft presentation - which also contains the project outline - can be found in Google slides here:  https://docs.google.com/presentation/d/1osNFkS8d5RxEI2eKCFaoNMjgaGzFwkeNDIXmPj3grc8/edit#slide=id.g10d80d3b944_1_2
