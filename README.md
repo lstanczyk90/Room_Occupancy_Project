@@ -9,7 +9,7 @@
      - Room cleaning after occupancy such as in clinics, conference rooms, and other public settings; particularly during the COVID pandemic.
      - Energy efficiency via room temperature management based on occupancy and turning off lights and other electrical devices.
    
-### Description of Data 
+### Description of Souce Data
    - Each dataset contains time series sensor telemetry from humidity, temperature, CO2, light and other sensors placed in a room. The data was collected both when someone is present in the room and when the room is not occupied. Each sensor reading is labeled with room occupancy ground truth and all sensors report their reading with a floating point value.  
    - Datasets are provided by Kaggle at these locations:
      - https://www.kaggle.com/kukuroo3/room-occupancy-detection-data-iot-sensor
@@ -19,9 +19,32 @@
 ### Questions we hope to answer
    - Of the three datasets we selected, which one provides the best performance for accurate room occupancy detection?
    - What is the best occupancy detection performance that we can achieve given the available data using machine learning classification algorithms?
+ 
+### Preprocessing the Data
+   - Converted each dataset to include a binary outcome (0,1).
+   - Renamed target values of datasets to be consistent with the other dataset and removed all object types from the datasets 
+   - Preliminary features:
+     - Telemetry data (C02, Light, Temperature, etc.) was used as features. 
+     - Occupancy (binary outcome of 0 - No and 1- Yes) was set as target.
 
 ### Data Analysis
-   - We will start with the Random Forest algorithm from scikit-learn to analyze the data. We will explore the performance of other models such as Logistic Regression if needed.
+   - The data was split using the standard values for sklearn.model_selection's train_test_split (75 train / 25 test split).
+   - Model choice is Random Forest algorithm from scikit-learn to analyze the data.
+      - Pros:
+        - Robust to outliers.
+        - Works well with non-linear data.
+        - Lower risk of overfitting.
+        - Runs efficiently on a large dataset.
+        - Better accuracy than other classification algorithms.
+       - Cons:
+         - Random forests are found to be biased while dealing with categorical variables.
+         - Model is slow to train
+         - Not suitable for linear methods with a lot of sparse features.
+
+### Changes in Model
+   - Revised column names to reflect the data we wished to focus on
+   - Using the built-in Feature Importance of the RandomForestClassifier, we were able to identify the most important features for our model.
+   - After identifying the significant feature, we re-ran the model testing the top feature alone then the rest of the features without excluding the top.
 
 ### Presentation Slides & Project Outline
 The draft presentation - which also contains the project outline - can be found in in the link below.
