@@ -25,7 +25,7 @@
    - Renamed target values of datasets to be consistent with the other dataset and removed all object types from the datasets 
    - Preliminary features:
      - Telemetry data (C02, Light, Temperature, etc.) was used as features. 
-     - Occupancy (binary outcome of 0 - No and 1- Yes) was set as target.
+     - Occupancy (binary outcome where 0 = No ; 1 = Yes) was set as target.
 
 ### Data Analysis
    - The data was split using the standard values for sklearn.model_selection's train_test_split (75 train / 25 test split).
