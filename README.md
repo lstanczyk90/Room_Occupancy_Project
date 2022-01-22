@@ -9,7 +9,7 @@
      - Room cleaning after occupancy such as in clinics, conference rooms, and other public settings; particularly during the COVID pandemic.
      - Energy efficiency via room temperature management based on occupancy and turning off lights and other electrical devices.
    
-### Description of Souce Data
+### Description of Source Data
    - Each dataset contains time series sensor telemetry from humidity, temperature, CO2, light and other sensors placed in a room. The data was collected both when someone is present in the room and when the room is not occupied. Each sensor reading is labeled with room occupancy ground truth and all sensors report their reading with a floating point value.  
    - Datasets are provided by Kaggle at these locations:
      - https://www.kaggle.com/kukuroo3/room-occupancy-detection-data-iot-sensor
