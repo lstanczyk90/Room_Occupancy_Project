@@ -50,6 +50,9 @@
 The draft presentation - which also contains the project outline - can be found in in the link below.
    - https://docs.google.com/presentation/d/1osNFkS8d5RxEI2eKCFaoNMjgaGzFwkeNDIXmPj3grc8/edit#slide=id.g10d80d3b944_1_2
 
+### Project Visuals from Tableau
+   - https://public.tableau.com/app/profile/john.davidson5825/viz/RoomOccupancyDetection/RoomOccupancyDetection?publish=yes
+
 ### Database Entity Relationship Diagram (ERD)
 
 ![ERD](./Resources/QuickDBD-export.png)
